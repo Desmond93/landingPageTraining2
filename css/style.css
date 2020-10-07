@@ -1,0 +1,300 @@
+body {
+	padding-bottom: 50px;	
+}
+
+.navbar {
+	background-color: #e8e8e8;
+	border-bottom: 1px solid #cccccc;
+	padding: 0;
+	height: 115px;
+}
+
+.navbar .container {
+	padding: 0 30px;
+	height: 100%;
+}
+
+.nav_left, .nav_right {
+	height: 100%;
+}
+
+.navbar .logo {
+	margin-top: 30px;
+}
+
+.navbar .container .row {
+	height: 100%;
+}
+
+.navig {
+	text-align: center;
+	height: 100%;
+}
+
+.navig:hover {
+	background-color: #dad4d4;
+	border-bottom: 5px solid #ff7d00;
+}
+
+.home {
+	border-right: 1px solid #cccccc;
+	padding-top: 5px;	
+}
+
+.members {
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	padding-top: 5px;	
+}
+
+.gallery {
+	padding-top: 7px;
+}
+
+.navig img {
+	margin: 35px 0 10px 0;
+}
+
+.navig p {
+	font-size: 16px;
+	font-family: "HelveticaCE";
+	color: rgb(84, 84, 84);
+}
+
+form {
+	padding: 35px 175px;
+	width: 100%;
+}
+
+h1 {
+	font-size: 28px;
+	font-family: "HelveticaCE";
+	color: rgb(86, 85, 85);
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.field {
+	width: 100%;
+	height: 45px;
+	border: 1px solid #cacaca;
+	border-radius: 5px;
+	box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2) inset;
+}
+
+.browse {
+	background-color: #c1bfbf;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	border-radius: 5px;
+    display: block; 
+    padding: 5px;    
+    font-size: 18px;
+    font-family: "HelveticaNeueLT";
+    text-decoration: none; 
+    position: relative;
+    bottom: 40px;  
+    margin: 0 2% 0 75%;   
+}
+
+.browse:hover, .upload:hover {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.upload {
+	background-color: #ff8700;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	border-radius: 5px;
+    display: block; 
+    padding: 5px;
+    font-weight: bold;    
+    font-size: 24px;
+    font-family: "HelveticaCE";
+    text-decoration: none;     
+}
+
+.cont {
+	border: 2px solid #cacaca;
+	padding: 5px;
+	margin-bottom: 30px;
+}
+
+.plus {
+	position: absolute;
+	text-align: center;
+	margin: 40% 0 0 40%;
+	z-index: -1;
+}
+
+.main_img {
+	width: 100%;
+	height: 100%;
+}
+
+.cont:hover  .plus {
+	z-index: 3;
+}
+
+.ins {
+	padding: 10px 10px 0 10px;
+}
+
+.ins .row {
+	margin: 0;
+}
+
+.ins p {
+	font-size: 15px;
+	font-family: "HelveticaCE";
+	color: rgb(151, 147, 147);	
+	margin: 0;
+}
+
+.top_cont {
+	border-bottom: 1px solid #e0dfdf;
+	padding-bottom: 5px;
+}
+
+.pad {
+	padding: 0;
+}
+
+.pad_img {
+	text-align: right;
+}
+
+.pad_text {
+	padding-right: 10px; 
+	text-align: right;
+}
+
+.bottom_cont {
+	padding-top: 5px
+}
+
+.contacts {
+	padding: 0 0 0 5px;	
+	text-align: center;
+}
+
+.fon {	
+	background-color: #b1aeae;
+	width: 100%;
+	border-radius: 100% 100% 100% 100%;
+}
+
+.fon:hover {
+	background-color: #283e8f;
+}
+
+.message {
+	position: absolute;
+	z-index: -1;	
+}
+
+.message p {	
+	margin-top: 5px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	font-size: 11px; 
+	font-family: "HelveticaCE";
+	width: 200%;
+}
+
+.contacts:hover  .message {
+	z-index: 3;	
+}
+
+.contacts:hover  .message p {
+	background-color: black;
+}
+
+.bottom_link {
+	margin-top: 50px;
+	text-align: right;
+	width: 100%;
+}
+
+.bottom_link p {
+	font-size: 17px;
+	font-family: "Arial";
+	color: rgb(139, 138, 138);
+}
+
+
+@media screen and (max-width: 1200px) {
+
+.navbar {	
+	height: auto;
+}
+
+.navbar .logo {
+	margin-top: 0;
+}
+
+.navig img {
+	margin: 15px 0 10px 0;
+}
+
+.contacts {	
+	padding-left: 2px;
+}
+
+.plus {
+	margin: 35% 0 0 35%;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+
+.navbar .container {
+	text-align: center;
+	padding: 0;
+}
+
+.home, .members, .gallery {	
+	border: none;
+	padding: 0;	
+}
+
+form {
+	padding: 35px 0;
+	text-align: center;
+}
+
+.field {
+	width: 60%;	
+}
+
+.upload {
+	margin: 0 25%;
+}
+
+.browse {
+	margin: 0 22% 0 60%; 
+}
+
+.contacts {	
+	padding-left: 58px;
+}
+
+.plus {
+	margin: 45% 0 0 45%;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+.contacts {	
+	padding-left: 12%;
+}
+
+.plus {
+	margin: 42% 0 0 42%;
+}
+
+}
